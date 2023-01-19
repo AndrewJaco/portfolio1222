@@ -36,7 +36,7 @@ export default function MySkills(props) {
               <FontAwesomeIcon icon={faReact} />
           </li>
           <li className={skillStyles.skill}>
-              <Image className={skillStyles.next} src={NextJs} height="55" width="55"/>
+              <Image className={skillStyles.next} src={NextJs} height="55" width="55" alt="nextjs logo"/>
           </li>
           <li className={skillStyles.skill}>
             {/* <FontAwesomeIcon icon={faNpm} /> */}
@@ -71,7 +71,7 @@ export default function MySkills(props) {
                 <FontAwesomeIcon icon={faReact} />
             </SwiperSlide>
             <SwiperSlide className={skillStyles.skill}>
-                <Image className={skillStyles.next} src={NextJs} height="55" width="55"/>
+                <Image className={skillStyles.next} src={NextJs} height="55" width="55" alt="nextjs logo"/>
             </SwiperSlide>
             <SwiperSlide className={skillStyles.skill}>
               <FontAwesomeIcon icon={faGithub} />

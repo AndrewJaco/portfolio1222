@@ -34,14 +34,14 @@ export default function Projects(props) {
               </div>
             </div>
             <div className={projectStyles.project} id={projectStyles.nuggetWars}>
-              <a href="https://nuggetwars.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://nuggetwars.com/" target="_blank" rel="noreferrer">
                 <div className={projectStyles.projectInfo}>
                   <Image src={NuggetWars} height="100" width="202" alt="nugget wars logo"/>
                   <p className={projectStyles.subText}>NFT landing page</p>
                 </div>
               </a>
               <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/nugget_wars" target="_blank" >
+                <a href="https://github.com/AndrewJaco/nugget_wars" target="_blank" rel="noreferrer">
                   <Github />
                   <p>Launch Project</p>
                 </a> 

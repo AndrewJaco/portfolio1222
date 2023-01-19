@@ -13,7 +13,7 @@ export default function AboutMe(props) {
         
           <div className={AboutMeStyles.card}>
             <div className={AboutMeStyles.cardWrapper}>
-              <Image className={AboutMeStyles.profilePic} src={ProfilePic} width="252" height="336"/>
+              <Image className={AboutMeStyles.profilePic} src={ProfilePic} width="252" height="336" alt="Picture of Andrew Jacobus"/>
               <ul className={AboutMeStyles.cardText}>
                 <li>University of Oklahoma  </li>
                 <li>International and Area Studies</li>
