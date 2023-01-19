@@ -14,13 +14,13 @@ export default function Contact(props) {
       <div id={styles.contactContainer}>
         <ul id={styles.contactGroup}>
           <div id={styles.contactsA}>
-            <li><a href='https://github.com/AndrewJaco' target="_blank" className={styles.linkItem}><Github /></a></li>
-            <li><a href='https://www.facebook.com' target="_blank" className={styles.linkItem}><Facebook /></a></li>
-            <li><a href='https://www.instagram.com/andrewjaofficial/' target="_blank" className={styles.linkItem}><Instagram /></a></li>
+            <li><a href='https://github.com/AndrewJaco' target="_blank" rel="noreferrer" className={styles.linkItem}><Github /></a></li>
+            <li><a href='https://www.facebook.com' target="_blank" rel="noreferrer" className={styles.linkItem}><Facebook /></a></li>
+            <li><a href='https://www.instagram.com/andrewjaofficial/' target="_blank" rel="noreferrer" className={styles.linkItem}><Instagram /></a></li>
           </div>
           <div id={styles.contactsB}>
-            <li><a href='mailto:jacobus15@gmail.com' target="_blank" className={styles.linkItem}><Gmail /></a></li>
-            <li><a href='https://www.linkedin.com/in/andrew-jacobus-7a4664262/' target="_blank" className={styles.linkItem}><Linkedin /></a></li>
+            <li><a href='mailto:jacobus15@gmail.com' target="_blank" rel="noreferrer" className={styles.linkItem}><Gmail /></a></li>
+            <li><a href='https://www.linkedin.com/in/andrew-jacobus-7a4664262/' target="_blank" rel="noreferrer" className={styles.linkItem}><Linkedin /></a></li>
           </div>
         </ul>
       </div>
