@@ -20,14 +20,14 @@ export default function Projects(props) {
         <div className={projectStyles.projectsWrapper}>
           <div className={projectStyles.currentProjects}>
             <div className={projectStyles.project} id={projectStyles.anyCall}>
-              <a href="https://anycall.multichain.org/" target="_blank">
+              <a href="https://anycall.multichain.org/" target="_blank" rel="noreferrer">
                 <div className={projectStyles.projectInfo}>
                   <Image src={AnyCallLogo} height="63" width="225" alt="anyCall logo"/>
                   <p className={projectStyles.subText}>Block-chain landing page</p>
                 </div>
               </a>
               <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/anyCall2" target="_blank" >
+                <a href="https://github.com/AndrewJaco/anyCall2" target="_blank" rel="noreferrer" >
                   <Github />
                   <p>Launch Project</p>
                 </a>  
@@ -50,28 +50,28 @@ export default function Projects(props) {
           </div>
           <div className={projectStyles.comingSoonProjects}>
             <div className={projectStyles.project} id={projectStyles.comingSoon}>
-              <a href="https://github.com/AndrewJaco/" target="_blank">
+              <a href="https://github.com/AndrewJaco/" target="_blank" rel="noreferrer">
                 <div className={projectStyles.projectInfo}>
                   <FontAwesomeIcon icon={faPersonDigging} className={projectStyles.fa}/>
                   <p className={projectStyles.subText}></p>
                 </div>
               </a>
               <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/" target="_blank" >
+                <a href="https://github.com/AndrewJaco/" target="_blank" rel="noreferrer" >
                   <Github />
                   <p>Coming Soon</p>
                 </a>  
               </div>
             </div>
             <div className={projectStyles.project} id={projectStyles.comingSoon}>
-              <a href="https://github.com/AndrewJaco/" target="_blank">
+              <a href="https://github.com/AndrewJaco/" target="_blank" rel="noreferrer">
                 <div className={projectStyles.projectInfo}>
                   <FontAwesomeIcon icon={faPersonDigging} className={projectStyles.fa}/>
                   <p className={projectStyles.subText}></p>
                 </div>
               </a>
               <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/" target="_blank" >
+                <a href="https://github.com/AndrewJaco/" target="_blank" rel="noreferrer" >
                   <Github />
                   <p>Coming Soon</p>
                 </a>  
