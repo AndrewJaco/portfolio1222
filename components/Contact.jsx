@@ -19,7 +19,7 @@ export default function Contact(props) {
           </div>
           <div id={styles.contactsB}>
             <li><a href='mailto:jacobus15@gmail.com' target="_blank" rel="noreferrer" className={styles.linkItem}><Gmail /></a></li>
-            <li><a href='https://www.linkedin.com/in/andrew-jacobus-7a4664262/' target="_blank" rel="noreferrer" className={styles.linkItem}><Linkedin /></a></li>
+            <li><a href='https://www.linkedin.com/in/andrew-jacobus/' target="_blank" rel="noreferrer" className={styles.linkItem}><Linkedin /></a></li>
           </div>
         </ul>
       </div>
