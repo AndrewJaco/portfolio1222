@@ -1,5 +1,6 @@
 :root {
   --bg-dark: #326273;
+  --bg-light: #508a9c;
   --primary-100: #D1BAA2;
   --primary-400: #E88659;
   --secondary-100: #C8BF58;
@@ -22,7 +23,8 @@ html,
 body {
   font-family: 'Oswald', sans-serif;
   color: var(--light);
-  background-color: var(--bg-dark);
+  background: var(--bg-dark);
+  background: linear-gradient(90deg, var(--dark) 0%, var(--dark) 10%, var(--dark) 90%, var(--dark) 100%);
   scroll-behavior: smooth;
 }
 
