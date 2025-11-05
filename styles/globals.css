@@ -115,9 +115,9 @@ a {
     flex-direction: row;
   }
 
-  .toTop{
-    /* display: none; */
-  }
+  /* .toTop{
+    display: none;
+  } */
 
   .downButton:hover, .upButton:hover{
     background-color: var(--secondary-500);
