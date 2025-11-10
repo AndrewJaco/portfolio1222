@@ -1,11 +1,9 @@
-.aboutMe{
-  /* min-height: 100vh; */
+.aboutMe {
   display: flex;
   padding-block: var(--section-padding)
-  /* background-color: rgba(181, 242, 222, 0.556) ; */
 }
 
-.aboutMeWrapper{
+.aboutMeWrapper {
   height: 100%;
   width: 100%;
   display: flex;
@@ -20,21 +18,18 @@
   color: var(--bg-dark);
 }
 
-.card{
-  /* max-width: 33rem; */
+.card {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  /* flex: 3; */
-  /* outline: solid red; */
 }
 
-.cardWrapper{
+.cardWrapper {
   margin-top: 2rem;
 }
 
-.profilePic{
+.profilePic {
   width: fit-content;
   height: fit-content;
   max-height: 250px;
@@ -42,47 +37,55 @@
   border-radius: 75px;
 }
 
-.cardText{
+.cardText {
   color: var(--secondary-100);
   margin-top: .75rem;
-  display: none;
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 0;
 }
 
-.info{
-  /* flex: 3; */
+.cardText li {
+  color: var(--bg-dark);
+  margin-bottom: 0.5rem;
+}
+
+.cardText li::marker {
+  color: var(--bg-dark);
+}
+
+.info {
   max-width: 800px;
   height: fit-content;
 }
 
-.title{
+.title {
   font-size: 3rem;
-  /* margin-top: 0; */
-  /* margin-bottom: 1.25rem; */
+  font-weight: bold;
 }
 
-.arrowWrapper{
+.arrowWrapper {
   display: none;
-  
 }
 
-@media screen and (min-width: 1000px){
-  .aboutMe{
+@media screen and (min-width: 1000px) {
+  .aboutMe {
     height: 100vh;
   }
 
-  .aboutMeWrapper{
+  .aboutMeWrapper {
     flex-direction: row;
     background-color: transparent;
   }
 
-  .arrowWrapper{
+  .arrowWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 2rem 3rem 2rem 0;
   }
 
-  .info{
+  .info {
     background-color: var(--secondary-100);
     border-radius: 75px;
     padding: 3rem;
@@ -90,15 +93,19 @@
     flex: 2;
   }
 
-  .infoText{
-    /* max-width: 20rem; */
-  }
-
-  .cardWrapper{
+  .cardWrapper {
     margin: 3rem;
   }
 
-  .cardText{
+  .cardText {
     display: block;
+  }
+
+  .cardText li {
+    color: var(--secondary-100);
+  }
+
+  .cardText li::marker {
+    color: var(--secondary-100);
   }
 }

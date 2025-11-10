@@ -43,7 +43,7 @@ export default function MySkills(props) {
           <li className={skillStyles.skill}>
             <FontAwesomeIcon icon={faGithub} />
           </li>
-          <li className={skillStyles.skill}>
+          <li className={`${skillStyles.skill} ${skillStyles.bootstrap}`}>
             <FontAwesomeIcon icon={faBootstrap} />
           </li>
           <li className={skillStyles.skill}>
@@ -82,7 +82,7 @@ export default function MySkills(props) {
             <SwiperSlide className={skillStyles.skill}>
               <FontAwesomeIcon icon={faGithub} />
             </SwiperSlide>
-            <SwiperSlide className={skillStyles.skill}>
+            <SwiperSlide className={`${skillStyles.skill} ${skillStyles.bootstrap}`}>
               <FontAwesomeIcon icon={faBootstrap} />
             </SwiperSlide>
             <SwiperSlide className={skillStyles.skill}>

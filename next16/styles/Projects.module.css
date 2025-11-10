@@ -82,12 +82,12 @@
   justify-content: center;
   align-items: center;
 
-  /* font-family: 'Noto Sans', sans-serif; */
+  font-family: var(--font-noto-sans), sans-serif;
   font-weight: 300;
 }
 
 .projectLinks {
-  /* font-family: 'Noto Sans', sans-serif; */
+  font-family: var(--font-noto-sans), sans-serif;
   font-weight: 200;
   font-size: .8rem;
   position: absolute;
