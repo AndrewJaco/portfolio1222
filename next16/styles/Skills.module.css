@@ -1,83 +1,91 @@
-.section{
+.section {
   height: 100vh;
   padding-block: var(--section-padding);
   display: flex;
-  
+
 }
 
-.sectionWrapper{
+.sectionWrapper {
   border-radius: 75px;
   height: 100%;
   width: 100%;
   background-color: var(--secondary-400);
   color: var(--light);
   padding-bottom: 2.5rem;
-  /* border: solid white;  */
 }
 
-.arrowWrapper{
+.arrowWrapper {
   display: none;
 }
 
-.titleWrapper{
+.titleWrapper {
   height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title{
+.title {
   font-size: 3rem;
   font-weight: 400;
 }
 
-.skillsWrapper{
+.skillsWrapper {
   height: 80%;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   align-items: flex-start;
   justify-content: space-evenly;
-  
+
 }
 
-.skill{
+.skill {
   width: calc(50% - 10px);
   height: calc(25% - 10px);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   background-color: var(--primary-400);
   border-radius: 75px;
 }
 
-.skill> * {
+.skill>* {
   filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-  height: 55px;
+  height: 55px !important;
+  width: 55px !important;
+  display: block;
+  margin: 0 auto;
 }
 
-.next{
-  filter: invert(99%) sepia(16%) saturate(2136%) hue-rotate(196deg) brightness(120%) contrast(97%) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25)); 
+.next,
+.elixir {
+  filter: invert(1) brightness(100%) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  height: 55px !important;
+  width: 55px !important;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
 }
 
-.swiperWrapper{
+.swiperWrapper {
   display: none;
 }
 
-@media screen and (min-width: 1000px){
-  .section{
+@media screen and (min-width: 1000px) {
+  .section {
     justify-content: flex-end;
     max-width: calc(100vw - 112px);
   }
-  
-  .arrowWrapper{
+
+  .arrowWrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding:  2rem 3rem 2rem 0;
+    padding: 2rem 3rem 2rem 0;
   }
 
-  .sectionWrapper{
+  .sectionWrapper {
     background-color: transparent;
     display: flex;
     flex-direction: column;
@@ -86,20 +94,20 @@
     margin-inline: auto;
   }
 
-  #smallList{
+  #smallList {
     display: none;
   }
 
-  .swiperWrapper{
+  .swiperWrapper {
     height: 100%;
     /* width: 80%; */
     display: flex;
     align-items: center;
     justify-content: center;
-  
+
   }
 
-  .skill{
+  .skill {
     display: flex;
     justify-content: space-evenly;
     padding: 7rem 0rem;
@@ -111,8 +119,8 @@
   } */
 }
 
-@media screen and (max-height: 450px){
-  .section{
+@media screen and (max-height: 450px) {
+  .section {
     height: 844px;
   }
 }

@@ -1,5 +1,4 @@
 'use client';
-import React from "react";
 import skillStyles from "../styles/Skills.module.css"
 import UpArrow from "./UpArrow";
 import DownArrow from "./DownArrow";
@@ -11,11 +10,11 @@ import 'swiper/css'
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import NextJs from '../public/img/nextjs.png'
+import NextJs from '../public/img/nextjs.png';
+import Elixir from '../public/img/elixir.svg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { } from '@fortawesome/free-solid-svg-icons'
-import { faHtml5, faCss3Alt, faSquareJs, faBootstrap, faGithub, faReact, faFigma } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faCss3Alt, faSquareJs, faBootstrap, faGithub, faReact, faPhoenixFramework } from '@fortawesome/free-brands-svg-icons'
 
 export default function MySkills(props) {
   return (
@@ -28,6 +27,8 @@ export default function MySkills(props) {
         <ul className={skillStyles.skillsWrapper} id={skillStyles.smallList}>
           <li className={skillStyles.skill}>
             <FontAwesomeIcon icon={faHtml5} />
+          </li>
+          <li className={skillStyles.skill}>
             <FontAwesomeIcon icon={faCss3Alt} />
           </li>
           <li className={skillStyles.skill}>
@@ -40,14 +41,16 @@ export default function MySkills(props) {
             <Image className={skillStyles.next} src={NextJs} height="55" width="55" alt="nextjs logo" />
           </li>
           <li className={skillStyles.skill}>
-            {/* <FontAwesomeIcon icon={faNpm} /> */}
             <FontAwesomeIcon icon={faGithub} />
           </li>
           <li className={skillStyles.skill}>
             <FontAwesomeIcon icon={faBootstrap} />
           </li>
           <li className={skillStyles.skill}>
-            <FontAwesomeIcon icon={faFigma} />
+            <Image className={skillStyles.elixir} src={Elixir} height="55" width="55" alt="elixir logo" />
+          </li>
+          <li className={skillStyles.skill}>
+            <FontAwesomeIcon icon={faPhoenixFramework} />
           </li>
         </ul>
         <div className={skillStyles.swiperWrapper}>
@@ -63,6 +66,8 @@ export default function MySkills(props) {
           >
             <SwiperSlide className={skillStyles.skill}>
               <FontAwesomeIcon icon={faHtml5} />
+            </SwiperSlide>
+            <SwiperSlide className={skillStyles.skill}>
               <FontAwesomeIcon icon={faCss3Alt} />
             </SwiperSlide>
             <SwiperSlide className={skillStyles.skill}>
@@ -81,14 +86,16 @@ export default function MySkills(props) {
               <FontAwesomeIcon icon={faBootstrap} />
             </SwiperSlide>
             <SwiperSlide className={skillStyles.skill}>
-              <FontAwesomeIcon icon={faFigma} />
+              <Image className={skillStyles.elixir} src={Elixir} height="55" width="55" alt="elixir logo" />
+            </SwiperSlide>
+            <SwiperSlide className={skillStyles.skill}>
+              <FontAwesomeIcon icon={faPhoenixFramework} />
             </SwiperSlide>
 
           </Swiper>
         </div>
       </div>
       <div className={skillStyles.arrowWrapper}>
-        {/* two arrows */}
         <UpArrow href="#projects" />
         <DownArrow href="#aboutMe" />
       </div>

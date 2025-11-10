@@ -4,12 +4,6 @@ import BigButton from "./BigButton"
 import DownArrow from "./DownArrow"
 
 
-
-// const ProjectIcon = "/img/html-five2.svg"
-// const ContactIcon = "/img/gmail.svg"
-// const AboutIcon = "/img/user-profile.svg"
-// const SkillsIcon = "/img/route.svg"
-
 export default function HeroNav(props) {
   return (
   <section className={heroStyles.section} id={props.id}>
