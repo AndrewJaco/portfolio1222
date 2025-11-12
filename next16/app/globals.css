@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Racing+Sans+One&display=swap');
 @import "tailwindcss";
 
 @theme inline {
@@ -6,6 +5,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-oswald);
   --font-mono: var(--font-geist-mono);
+  --font-racing: var(--font-racing-sans-one);
+  --font-oswald: var(--font-oswald);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,14 +28,6 @@
   --dark: #1C1C1E;
 
   --section-padding: .5rem;
-}
-
-*,
-*::after,
-*::before {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
 }
 
 html,

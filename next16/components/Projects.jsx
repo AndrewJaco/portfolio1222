@@ -33,22 +33,6 @@ export default function Projects(props) {
                 </a>
               </div>
             </div>
-            <div className={projectStyles.project} id={projectStyles.nuggetWars}>
-              <a href="https://nuggetwars.com/" target="_blank" rel="noreferrer">
-                <div className={projectStyles.projectInfo}>
-                  <Image src={NuggetWars} height="100" width="202" alt="nugget wars logo" />
-                  <p className={projectStyles.subText}>NFT landing page</p>
-                </div>
-              </a>
-              <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/nugget_wars" target="_blank" rel="noreferrer">
-                  <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
-                  <p>Launch Project</p>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className={projectStyles.comingSoonProjects}>
             <div className={projectStyles.project} id={projectStyles.runningSchedule}>
               <Link href="/runschedule" >
                 <div className={projectStyles.projectInfo}>
@@ -61,6 +45,22 @@ export default function Projects(props) {
                   <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
                   <p>Run Schedule</p>
                 </Link>
+              </div>
+            </div>
+          </div>
+          <div className={projectStyles.comingSoonProjects}>
+            <div className={projectStyles.project} id={projectStyles.nuggetWars}>
+              <a href="https://nuggetwars.com/" target="_blank" rel="noreferrer">
+                <div className={projectStyles.projectInfo}>
+                  <Image src={NuggetWars} height="100" width="202" alt="nugget wars logo" />
+                  <p className={projectStyles.subText}>NFT landing page</p>
+                </div>
+              </a>
+              <div className={projectStyles.projectLinks}>
+                <a href="https://github.com/AndrewJaco/nugget_wars" target="_blank" rel="noreferrer">
+                  <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
+                  <p>Launch Project</p>
+                </a>
               </div>
             </div>
             <div className={projectStyles.project} id={projectStyles.comingSoon}>
