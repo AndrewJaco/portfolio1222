@@ -7,6 +7,16 @@
   --font-mono: var(--font-geist-mono);
   --font-racing: var(--font-racing-sans-one);
   --font-oswald: var(--font-oswald);
+
+  --color-bg-dark: #326273;
+  --color-bg-light: #508a9c;
+  --color-primary-100: #D1BAA2;
+  --color-primary-400: #E88659;
+  --color-secondary-100: #C8BF58;
+  --color-secondary-400: #56C1E1;
+  --color-secondary-500: #3EB489;
+  --color-light: #F5F5F5;
+  --color-dark: #1C1C1E;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,7 +36,6 @@
   --secondary-500: #3EB489;
   --light: #F5F5F5;
   --dark: #1C1C1E;
-
   --section-padding: .5rem;
 }
 
