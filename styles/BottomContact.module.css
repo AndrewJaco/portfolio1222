@@ -1,22 +1,22 @@
-.section{
-  display: flex;  
+.section {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding-block: var(--section-padding);
 }
 
-.contactContainer{
+.contactContainer {
   padding: 0 0 0 3rem;
 }
 
-#contactTitle{
+#contactTitle {
   font-family: 'Oswald', sans-serif;
   font-size: 3rem;
   margin-bottom: 2rem;
 }
 
-#contactGroup{
+#contactGroup {
   color: var(--secondary-500);
   list-style: none;
   margin: auto;
@@ -25,12 +25,13 @@
   flex-direction: column;
 }
 
-#contactsA, #contactsB{
+#contactsA,
+#contactsB {
   display: flex;
   justify-content: space-evenly;
 }
 
-#contactGroup::after{
+#contactGroup::after {
   content: "";
   width: 13rem;
   height: 2px;
@@ -45,24 +46,25 @@
   transform: scale(1.1);
 } */
 
-#contactGroup>div>li>a{
+#contactGroup>div>li>a {
   margin: 0;
   padding: 0;
 }
 
-#contactGroup>div>li{
+#contactGroup>div>li {
   padding: .75rem;
 }
 
-.linkItem>*{
+.linkItem>* {
   height: 50px;
   width: 50px;
+  filter: brightness(0) saturate(100%) invert(85%) sepia(35%) saturate(450%) hue-rotate(75deg) brightness(95%) contrast(95%);
 }
 
-.linkItem>*:hover{
+.linkItem>*:hover {
   transform: translateY(-5px);
 }
 
-.linkItem>*:active{
+.linkItem>*:active {
   transform: translateY(5px);
 }

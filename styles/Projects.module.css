@@ -82,12 +82,12 @@
   justify-content: center;
   align-items: center;
 
-  font-family: 'Noto Sans', sans-serif;
+  font-family: var(--font-noto-sans), sans-serif;
   font-weight: 300;
 }
 
 .projectLinks {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: var(--font-noto-sans), sans-serif;
   font-weight: 200;
   font-size: .8rem;
   position: absolute;
@@ -100,12 +100,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 2rem; */
-  /* gap: .25rem; */
 }
 
 .projectLinks>a>:first-child {
   height: 1.5rem;
+  filter: brightness(0) invert(0.96);
 }
 
 #anyCall {
@@ -123,9 +122,12 @@
   color: var(--light);
 }
 
+.subText {
+  margin-top: .75rem;
+}
 
 .fa {
-  height: 3rem;
+  font-size: 3rem;
 }
 
 @media screen and (min-width: 1000px) {

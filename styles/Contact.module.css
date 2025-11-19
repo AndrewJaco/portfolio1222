@@ -1,10 +1,10 @@
-.contactInfoSidebar{
-  display: none;  
+.contactInfoSidebar {
+  display: none;
 }
 
 
 @media screen and (min-width: 1000px) {
-  .contactInfoSidebar{
+  .contactInfoSidebar {
     display: flex;
     height: 100vh;
     padding-block: var(--section-padding);
@@ -17,15 +17,15 @@
     padding-block: 0;
   }
 
-  #contactInfoSidebar{
+  #contactInfoSidebar {
     flex-direction: row;
   }
 
-  .contactContainer{
+  .contactContainer {
     padding: 0 0 0 3rem;
   }
 
-  #contactGroup{
+  #contactGroup {
     color: var(--secondary-500);
     list-style: none;
     margin: auto;
@@ -34,28 +34,30 @@
     flex-direction: column;
   }
 
-  #contactGroup::after{
+  #contactGroup::after {
     content: "";
     height: 7rem;
     width: 2px;
     background-color: var(--secondary-500);
     display: block;
-    margin: auto;    
+    margin: auto;
   }
 
-  #contactsA, #contactsB{
+  #contactsA,
+  #contactsB {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 
-  #contactGroup>div>li{
+  #contactGroup>div>li {
     padding: .75rem;
   }
 
-  .linkItem>*{
+  .linkItem>* {
     width: 24px;
     height: auto;
+    filter: brightness(0) saturate(100%) invert(85%) sepia(35%) saturate(450%) hue-rotate(75deg) brightness(95%) contrast(95%);
   }
 
 }
