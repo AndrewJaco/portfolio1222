@@ -2,6 +2,9 @@ import { getSheetData } from '@/app/runschedule/getRunSheet';
 import WeekSchedule from '@/app/runschedule/components/weekSchedule';
 import { parseSheetDate } from '@/app/runschedule/utils';
 
+// Force dynamic rendering
+export const dynamic = 'force-dynamic';
+
 // Type for raw sheet data (2D array of strings)
 type SheetData = string[][];
 
