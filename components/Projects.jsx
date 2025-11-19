@@ -19,20 +19,6 @@ export default function Projects(props) {
         </div>
         <div className={projectStyles.projectsWrapper}>
           <div className={projectStyles.currentProjects}>
-            <div className={projectStyles.project} id={projectStyles.anyCall}>
-              <a href="https://anycall.multichain.org/" target="_blank" rel="noreferrer">
-                <div className={projectStyles.projectInfo}>
-                  <Image src={AnyCallLogo} height="63" width="225" alt="anyCall logo" />
-                  <p className={projectStyles.subText}>Block-chain landing page</p>
-                </div>
-              </a>
-              <div className={projectStyles.projectLinks}>
-                <a href="https://github.com/AndrewJaco/anyCall2" target="_blank" rel="noreferrer" >
-                  <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
-                  <p>Launch Project</p>
-                </a>
-              </div>
-            </div>
             <div className={projectStyles.project} id={projectStyles.runningSchedule}>
               <Link href="/runschedule" >
                 <div className={projectStyles.projectInfo}>
@@ -45,6 +31,20 @@ export default function Projects(props) {
                   <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
                   <p>Run Schedule</p>
                 </Link>
+              </div>
+            </div>
+            <div className={projectStyles.project} id={projectStyles.anyCall}>
+              <a href="https://anycall.multichain.org/" target="_blank" rel="noreferrer">
+                <div className={projectStyles.projectInfo}>
+                  <Image src={AnyCallLogo} height="63" width="225" alt="anyCall logo" />
+                  <p className={projectStyles.subText}>Block-chain landing page</p>
+                </div>
+              </a>
+              <div className={projectStyles.projectLinks}>
+                <a href="https://github.com/AndrewJaco/anyCall2" target="_blank" rel="noreferrer" >
+                  <Image src="/img/github.svg" alt="GitHub" width={24} height={24} />
+                  <p>Launch Project</p>
+                </a>
               </div>
             </div>
           </div>

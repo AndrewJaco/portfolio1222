@@ -17,7 +17,7 @@ export default function WeekSchedule({ allWeeks, days, thisWeekRow, upcomingWeek
     const canvas = await html2canvas(element, {
       allowTaint: true,
       useCORS: true,
-      backgroundColor: '#ffffff',
+      backgroundColor: '#1a1a1a', // Dark background to show rounded corners
     });
     const dataURL = canvas.toDataURL("image/png");
 
